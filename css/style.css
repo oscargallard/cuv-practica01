@@ -1,0 +1,103 @@
+body {
+  background-color: rgb(189, 193, 198);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+em {
+  font-size: 150%;
+}
+
+p {
+  border: 0.1em solid salmon;
+}
+
+span {
+  border: 0.1em solid maroon;
+}
+
+div p {
+  border: none;
+  font-size: 18px;
+}
+
+p span {
+  border: 0.1em solid green;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1:hover {
+  background-color: chartreuse;
+}
+
+button {
+  padding: 15px;
+  font-weight: bold;
+}
+
+button:active {
+  background-color: #ff4000;
+}
+
+/* Clase */
+.borde {
+  border: 0.1em dashed darkmagenta;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Opcional, ajusta la altura según tus necesidades */
+}
+
+/* los "divs" ocupen la mitad de la pantalla de ancho y toda la pantalla de alto */
+.mitadAncho {
+  width: 50vw;
+  height: 100vh;
+  border: 3px solid black;
+  border-radius: 15%;
+  text-align: center; 
+}
+
+.cajaImagen {
+    background-image: url("https://picsum.photos/200?random=1");
+}
+
+/* ID */
+#fondoVerde {
+  background-color: rgba(128, 255, 0, 0.5);
+}
+
+#fondoH2 {
+  background-color: rgba(255, 0, 0, 0.5);
+  color: beige;
+  text-align: center;
+}
+
+#fondoLavanda {
+  background-color: #8080ff;
+}
+
+#fondoCielo {
+    background-color: skyblue;
+    color: blue;
+    margin-top: 100px;
+}
+
+#parrafo1 {
+  color: rgb(173, 18, 49);
+  font-size: 25px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#parrafo2 {
+  color: darkblue;  
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: line-through;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
